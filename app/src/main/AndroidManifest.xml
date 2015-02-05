@@ -13,7 +13,7 @@
 
         <!--  DreamServiceを継承したSimpleClockDreamを含むことを宣言する。-->
         <service
-            android:name=".DayDreamDemo"
+            android:name=".SimpleClockDream"
             android:exported="true"
             android:label="@string/daydreamdemo" >
             <!--  Daydream関連のIntent(android.service.dreams.DreamService)を拾えるようにしています。
@@ -23,15 +23,7 @@
                 <action android:name="android.service.dreams.DreamService" />
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
-            <meta-data
-                android:name="android.service.dream"
-                android:resource="@xml/daydream" />
         </service>
-
-        <activity
-            android:name=".DayDreamSettingsActivity"
-            android:label="@string/app_name" >
-        </activity>
     </application>
 
 </manifest>
