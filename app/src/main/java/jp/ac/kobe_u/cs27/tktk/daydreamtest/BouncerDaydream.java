@@ -11,6 +11,8 @@ import static android.view.ViewGroup.LayoutParams.*;
  * Created by tktk on 2015/02/05.
  */
 public class BouncerDaydream extends DreamService{
+
+	/*
 	@Override
 	public void onAttachedToWindow() {
 		super.onAttachedToWindow();
@@ -21,7 +23,7 @@ public class BouncerDaydream extends DreamService{
 		setFullscreen(true);
 		// Set the dream layout
 		setContentView(R.layout.daydream);
-	}
+	}*/
 
 	@Override
 	public void onDreamingStarted() {
