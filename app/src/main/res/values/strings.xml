@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">DaydreamTest</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="daydreamdemo">DayDream</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="mailerNotFound">Mail app not found!</string>
+    <string name="cameraNotFound">Camera app not found!</string>
+    <string name="failedOpenCamera">Failed in opening camera</string>
+    <string name="failedOpenCameraInCrash">Camera crashes! Please reboot your device.</string>
+    <string name="alertSDcardMount">Please mount SD card</string>
+    <string name="alertSDcardLowSpace">Please ensure the capacity of %1$d MB or more</string>
+    <string name="failedMakeDirectory">Failed in making directory</string>
+    <string name="setInteractive">setInteractive</string>
+    <string name="setFullscreen">setFullScreen</string>
+    <string name="setScreenBright">setScreenBright</string>
+    <string name="DayDreamDemo">DayDreamDemo</string>
+</resources>
